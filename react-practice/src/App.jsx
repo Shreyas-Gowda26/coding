@@ -7,29 +7,17 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src="/public/qot.jpeg" alt="/public/qot.jpeg" />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h1>Name : Queen of thrones</h1>
+      <h3>Rating : 8.2</h3>
+      <p>
+       Summary: Queen of Thrones is a captivating concept that symbolizes power, resilience, and leadership. It represents a woman who rises above challenges, commands respect, and leads with both strength and grace. Whether in a literal or metaphorical sense, the Queen of Thrones embodies determination, intelligence, and influence — someone who doesn’t just wear the crown but earns it through courage, wisdom, and vision. 👑
       </p>
-    </>
-  )
+    </div>
+  );
 }
 
 export default App
